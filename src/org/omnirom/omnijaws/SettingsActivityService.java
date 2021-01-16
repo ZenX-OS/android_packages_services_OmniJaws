@@ -50,8 +50,8 @@ import java.util.List;
 
 public class SettingsActivityService extends PreferenceActivity implements OnPreferenceChangeListener, WeatherLocationTask.Callback  {
 
-    private static final String CHRONUS_ICON_PACK_INTENT = "com.dvtonder.chronus.ICON_PACK";
-    private static final String DEFAULT_WEATHER_ICON_PACKAGE = "org.omnirom.omnijaws";
+    private static final String CHRONUS_ICON_PACK_INTENT = "org.omnirom.omnijaws";
+    private static final String DEFAULT_WEATHER_ICON_PACKAGE = "com.dvtonder.chronus.ICON_PACK";
 
     private SharedPreferences mPrefs;
     private ListPreference mProvider;
